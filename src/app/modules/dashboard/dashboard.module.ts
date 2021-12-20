@@ -10,7 +10,9 @@ import { ArticlesComponent } from './components/articles/articles.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { MatDividerModule } from '@angular/material/divider';
-
+import { MatListModule } from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     HomeComponent,
@@ -25,6 +27,9 @@ import { MatDividerModule } from '@angular/material/divider';
     SharedModule,
     MatSidenavModule,
     MatDividerModule,
+    MatListModule,
+    MatCardModule,
+    MatIconModule,
   ],
 })
 export class DashboardModule {}

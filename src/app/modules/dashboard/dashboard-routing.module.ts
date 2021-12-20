@@ -7,7 +7,7 @@ import { PostsComponent } from './components/posts/posts.component';
 
 const routes: Routes = [
   {
-    path: 'dashboard',
+    path: '',
     component: LayoutComponent,
     children: [
       { path: '', component: HomeComponent },
