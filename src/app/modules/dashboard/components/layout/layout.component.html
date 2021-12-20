@@ -1,12 +1,12 @@
 <header>header</header>
-<div class="main">
-  <div class="row">
-    <div class="col-12 col-md-3 col-lg-2">
-      <app-sidebar></app-sidebar>
-    </div>
-    <div class="col-12 col-md-9 col-lg-10">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
-</div>
+
+<mat-drawer-container>
+  <mat-drawer mode="side" opened>
+    <app-sidebar></app-sidebar>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+
 <footer>footer</footer>

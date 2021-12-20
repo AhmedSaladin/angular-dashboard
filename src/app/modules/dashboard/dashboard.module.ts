@@ -7,6 +7,7 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { ArticlesComponent } from './components/articles/articles.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,6 @@ import { ArticlesComponent } from './components/articles/articles.component';
     PostsComponent,
     ArticlesComponent,
   ],
-  imports: [CommonModule, DashboardRoutingModule],
+  imports: [CommonModule, DashboardRoutingModule, MatSidenavModule],
 })
 export class DashboardModule {}
