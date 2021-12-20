@@ -9,6 +9,7 @@ import { PostsComponent } from './components/posts/posts.component';
 import { ArticlesComponent } from './components/articles/articles.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
     DashboardRoutingModule,
     SharedModule,
     MatSidenavModule,
+    MatDividerModule,
   ],
 })
 export class DashboardModule {}
