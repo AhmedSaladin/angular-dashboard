@@ -8,6 +8,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { ArticlesComponent } from './components/articles/articles.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,11 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     PostsComponent,
     ArticlesComponent,
   ],
-  imports: [CommonModule, DashboardRoutingModule, MatSidenavModule],
+  imports: [
+    CommonModule,
+    DashboardRoutingModule,
+    SharedModule,
+    MatSidenavModule,
+  ],
 })
 export class DashboardModule {}
