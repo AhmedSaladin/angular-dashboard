@@ -1,16 +1,13 @@
-:host {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
 mat-drawer {
   width: 350px;
 }
 
-mat-drawer-container {
+.sidebar {
   height: 100%;
+  padding: 10px;
 }
 
-mat-drawer-content {
+.righ-side {
   padding: 20px;
+  background-color: #eee;
 }
